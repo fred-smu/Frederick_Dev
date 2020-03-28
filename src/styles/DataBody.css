@@ -1,0 +1,22 @@
+.name-cell {
+    text-transform: capitalize;
+}
+
+.card {
+    width: 30rem; 
+    margin: 0 auto;
+}
+#me{
+    height: 200px!important;
+     width: 150px!important; 
+    object-fit: cover;
+}
+#port{
+    height: 200px!important;
+     /* width: 150px!important; */
+}
+
+#label {
+    color: blanchedalmond!important;
+    
+}
