@@ -1,17 +1,28 @@
-import React from 'react';
-import Wrapper from "./components/Wrapper";
-import Nav from "./components/Nav";
-import Main from "./components/Main";
+import React         from 'react';
+import Wrapper       from "./components/Wrapper";
+import Nav           from "./components/Nav";
+import DataContact   from "./components/DataContact";
+import DataBody      from "./components/DataBody";
+import DataPortfolio from "./components/DataPortfolio";
 import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-function App() {
+
+const App: React.FC = () => {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Wrapper>
         <Nav />
-        <Main />
+        <Switch>
+          <Route exact path="/" component= {DataBody} />
+          <Route exact path="/portFolio" component={DataPortfolio} />
+          <Route exact path="/contact" component={DataContact} />
+          <Route path="/" render={() => <div>404 Error Page not found</div>} />
+
+        </Switch>
       </Wrapper>
-    </div>
+    </BrowserRouter>
+
   );
 };
 

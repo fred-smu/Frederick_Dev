@@ -2,7 +2,14 @@ import React from "react";
 import "../styles/DataBody.css";
 import ME from "../photo/tranback.png";
 
+
+
+
 const DataBody = () => {
+ 
+  // document.getElementById("NavAbout").className = " nav-item active ";
+  // document.getElementById("NavContact").className = " nav-item";
+  // document.getElementById("NavPortfolio").className = " nav-item";
   return (
     
     <div class="container">
@@ -21,7 +28,7 @@ const DataBody = () => {
                  in electronic warfare and advanced though programing, networking, operation and management. I also hold a master’s degree in information 
                  management. Changing programing languages is easy to me. I believe in pseudo-coding and then from there every programing language is just
                   a matter of syntax. My brand is “When you need the one person to pull everything together, 
-                  I’m your man”.</p>
+                          I’m your man”.</p>
             </div>
           </div>
         </div>

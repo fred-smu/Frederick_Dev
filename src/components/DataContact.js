@@ -1,22 +1,22 @@
 import React from "react";
-import "../styles/DataDataContact.css";
+// import "../styles/DataContact.css";
 
 const DataContact = () => {
+  // document.getElementById("NavAbout").className = " nav-item";
+  // document.getElementById("NavContact").className = " nav-item active ";
+  // document.getElementById("NavPortfolio").className = " nav-item";
+
   return (
     <div class="container">
       <h3>Contact</h3>
-      <form class=""></form>
-        <div class="form-group">
-          <label id="lable" class="label" for="name">Name</label>
-          <input type="email" class="form-control .bg-white" id="name" >
-        </div>
+      <form class="">
         <div class="form-group">
           <label id="lable" class="label" for="email">Email</label>
-          <input type="input" class="form-control .bg-white" id="email" >
+          <input type="input" class="form-control .bg-white" id="email" />
         </div>
         <div class="form-group">
           <label id="lable" class="label" for="message">Message</label>
-          <input style="height: 15rem;" type="textarea" class="form-control .bg-white" id="message" >
+          <input type="textarea" class="form-control .bg-white contact1" id="message" />
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
@@ -25,3 +25,15 @@ const DataContact = () => {
 };
 
 export default DataContact;
+/*****************************8
+ *
+ *
+
+
+
+
+        </div>
+
+
+ *
+ */

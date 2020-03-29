@@ -1,17 +1,4 @@
 
-/* [class^=col]{     border:dotted red; } */
-/* [class^=row]{    border:dashed green ;} */
- /* #nav{       border:solid black;}  */
-/* [class^="container"]{     border:dotted black;   } */
-/* #name{    padding: 15px 16px 15px 16px;    background-color: #eeeeee;} */
-/* [class^=col-md]{ */
-/* border:dotted red;  */
-/* } */
-/* img{
-    height: 200px!important;
-     width: 150px!important; 
-    object-fit: cover;
-} */
 #me{
     height: 200px!important;
      width: 150px!important; 
@@ -29,9 +16,12 @@
 #body {
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9hMG9rrHeiQFLH49DWtWoPe978c4nllJ1S7joIs1DgMdHo6fy');
  
-        /* background-image: "resback.png"; */
+        /* background-image: "../src/photo/resback.png"!important;  */
         background-repeat: no-repeat;  
-        background-size: 100% 150%;
+        background-size: 100% 150%!important;
         color:black!important;
         background-color: transparent!important;
+   }
+   #footbox{
+       color: black;
    }

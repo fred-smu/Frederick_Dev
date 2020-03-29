@@ -1,8 +1,16 @@
 import React from "react";
 import "../styles/DataPortfolio.css";
-import ME from "../photo/tranback.png";
-// "../photo/tranback.png"
+import APIQUIZ from "../photo/APIQUIZ.png";
+import dogs from "../photo/bonnie & misty.png.jpg";
+import family from "../photo/family.png";
+import tempEngine from "../photo/tempEngine.png";
+import weatherDash from "../photo/weatherDash.png";
+import workday from "../photo/workday.png";
+
 const DataPortfolio = () => {
+    // document.getElementById("NavAbout").className = " nav-item";
+    // document.getElementById("NavContact").className = " nav-item";
+    // document.getElementById("NavPortfolio").className = " nav-item active ";
 
 
     return (
@@ -11,20 +19,7 @@ const DataPortfolio = () => {
             <div data-aos="fade-up-right" class="col-lg-5 col-md-5 col-sm-12">
                 <div class="col lg-12">
                     <td>
-                        <img id="port" src="./fred_guthries_files/APIQUIZ.png" class="card-img" alt="fredGquiz" />
-                    </td>
-                    <div class="card-img-overlay">
-                        <div class=" mt-5">
-                            <a href="https://github.com/fred-smu/APICodeQuiz/" class="btn btn-lg btn-block text-dark">Quiz
-                            Game</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-aos="fade-up-left" class="col-lg-5 col-md-5 col-sm-12">
-                <div class="col lg-12">
-                    <td>
-                        <img id="port" src="./fred_guthries_files/APIQUIZ.png" class="card-img" alt="fredGquiz" />
+                        <img id="port" src={APIQUIZ}  class="card-img" alt="fredGquiz" />
                     </td>
                     <div class="card-img-overlay">
                         <div class=" mt-5">
@@ -35,10 +30,11 @@ const DataPortfolio = () => {
                 </div>
             </div>
 
+
             <div data-aos="fade-up-right" class="col-lg-5 col-md-5 col-sm-12">
                 <div class="col lg-12">
                     <td>
-                        <img id="port" src="./fred_guthries_files/weatherDash.png" class="card-img" alt="fredGweather" />
+                        <img id="port" src={weatherDash} class="card-img" alt="fredGweather" />
                     </td>
                     <div class="card-img-overlay">
                         <div class="h-100 mt-5">
@@ -53,7 +49,7 @@ const DataPortfolio = () => {
 
                 <div class="col lg-12">
                     <td>
-                        <img id="port" src="./fred_guthries_files/tempEngine.png" class="card-img" alt="fredGEmployee" />
+                        <img id="port" src= {tempEngine} class="card-img" alt="fredGEmployee" />
                     </td>
                     <div class="card-img-overlay">
                         <div class="h-100 mt-5">
@@ -63,24 +59,11 @@ const DataPortfolio = () => {
                     </div>
                 </div>
             </div>
-            <div data-aos="fade-up-right" class="col-lg-5 col-md-5 col-sm-12">
-                <div class="col lg-12">
-                    <td>
-                        <img id="port" src="./fred_guthries_files/APIQUIZ.png" class="card-img" alt="fredGquiz" />
-                    </td>
-                    <div class="card-img-overlay">
-                        <div class="h-100 mt-5">
-                            <a href="https://github.com/fred-smu/APICodeQuiz/" class="btn btn-lg btn-block text-light">Quiz
-                            Game</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+     
             <div data-aos="fade-up-left" class="col-lg-5 col-md-5 col-sm-12">
                 <div class="col lg-12">
                     <td>
-                        <img id="port" src="./fred_guthries_files/workday.png" class="card-img" alt="FredGplanner" />
+                        <img id="port" src= {workday} class="card-img" alt="FredGplanner" />
                     </td>
                     <div class="card-img-overlay">
                         <div class="h-100 mt-5">
@@ -94,7 +77,7 @@ const DataPortfolio = () => {
             <div data-aos="fade-up-right" class="col-lg-5 col-md-5 col-sm-12">
                 <div class="col lg-12">
                     <td>
-                        <img id="port" src="./fred_guthries_files/DSC_5383.JPG" class="card-img" alt="fredGlifestyle" />
+                        <img id="port" src= {family} class="card-img" alt="fredGlifestyle" />
                     </td>
                     <div class="card-img-overlay">
                         <div class="h-100 mt-5">
@@ -107,22 +90,20 @@ const DataPortfolio = () => {
             <div data-aos="fade-up-left" class="col-lg-5 col-md-5 col-sm-12">
                 <div class="col lg-12">
                     <td>
-                        <img id="port" src="./fred_guthries_files/bonnie & misty.png.jpg" class="card-img" alt="fredGdoggos" />
+                        <img id="port" src= {dogs} class="card-img" alt="fredGlifestyle" />
                     </td>
-                    <div class="h-100 mt-5">
-                        <a href class="btn btn-lg btn-block text-light">Bonnie and Misty</a>
+                    <div class="card-img-overlay">
+                        <div class="h-100 mt-5">
+                            <a href class="btn btn-lg btn-block text-light"> Bonnie and Misty</a>
+                        </div>
                     </div>
 
                 </div>
             </div>
-
-        </picture>
+       </picture>
         
 
     );
 };
-
-
-
 
 export default DataPortfolio;

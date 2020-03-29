@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Nav.css";
 
 function Nav() {
+  
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href >Frederick Clayton Guthrie III</a>
@@ -11,14 +12,14 @@ function Nav() {
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html">About </a>
+          <li id="NavAbout" class="nav-item active ">
+            <a class="nav-link About" href="./">About </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+          <li id="NavContact" class=" nav-item">
+            <a class="nav-link " href="./contact">Contact <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portFolio.html">Portfolio <span class="sr-only">(current)</span></a>
+          <li  id = "NavPortfolio" class=" nav-item">
+            <a class="nav-link " href="./portFolio">Portfolio <span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
