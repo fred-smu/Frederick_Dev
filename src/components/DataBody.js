@@ -2,22 +2,15 @@ import React from "react";
 import "../styles/DataBody.css";
 import ME from "../photo/tranback.png";
 
-
-
-
 const DataBody = () => {
- 
-  // document.getElementById("NavAbout").className = " nav-item active ";
-  // document.getElementById("NavContact").className = " nav-item";
-  // document.getElementById("NavPortfolio").className = " nav-item";
-  return (
+   return (
     
     <div class="container">
       <div class="row">        <div class="col">
-          <div class="card .bg-transparent" >
-            <td>
+          <div id ="card" class="card .bg-transparent" >
+            <a>
             <img id="me" src= {ME}  class="card-img-top" alt="my_photo" />
-            </td>
+            </a>
             <div class="card-body .bg-transparent">
               <h5 class="card-title">About me</h5>
               <p class="card-text">I am a full stack web developer with certificate from SMU, where I was educated and certified in: HTML5, CSS3, 

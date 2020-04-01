@@ -8,15 +8,12 @@ import weatherDash from "../photo/weatherDash.png";
 import workday from "../photo/workday.png";
 
 const DataPortfolio = () => {
-    // document.getElementById("NavAbout").className = " nav-item";
-    // document.getElementById("NavContact").className = " nav-item";
-    // document.getElementById("NavPortfolio").className = " nav-item active ";
 
 
     return (
 
         <picture class="mt-5 row justify-content-center">
-            <div data-aos="fade-up-right" class="col-lg-5 col-md-5 col-sm-12">
+            <div data-aos="fade-up-right" class="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div class="col lg-12">
                     <td>
                         <img id="port" src={APIQUIZ}  class="card-img" alt="fredGquiz" />
@@ -31,7 +28,7 @@ const DataPortfolio = () => {
             </div>
 
 
-            <div data-aos="fade-up-right" class="col-lg-5 col-md-5 col-sm-12">
+            <div data-aos="fade-up-right" class="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div class="col lg-12">
                     <td>
                         <img id="port" src={weatherDash} class="card-img" alt="fredGweather" />
@@ -45,7 +42,7 @@ const DataPortfolio = () => {
 
                 </div>
             </div>
-            <div data-aos="fade-up-left" class="col-lg-5 col-md-5 col-sm-12">
+            <div data-aos="fade-up-left" class="col-lg-5 col-md-5 col-sm-12 mb-3">
 
                 <div class="col lg-12">
                     <td>
@@ -60,7 +57,7 @@ const DataPortfolio = () => {
                 </div>
             </div>
      
-            <div data-aos="fade-up-left" class="col-lg-5 col-md-5 col-sm-12">
+            <div data-aos="fade-up-left" class="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div class="col lg-12">
                     <td>
                         <img id="port" src= {workday} class="card-img" alt="FredGplanner" />
@@ -74,7 +71,7 @@ const DataPortfolio = () => {
 
                 </div>
             </div>
-            <div data-aos="fade-up-right" class="col-lg-5 col-md-5 col-sm-12">
+            <div data-aos="fade-up-right" class="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div class="col lg-12">
                     <td>
                         <img id="port" src= {family} class="card-img" alt="fredGlifestyle" />
@@ -87,7 +84,7 @@ const DataPortfolio = () => {
 
                 </div>
             </div>
-            <div data-aos="fade-up-left" class="col-lg-5 col-md-5 col-sm-12">
+            <div data-aos="fade-up-left" class="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div class="col lg-12">
                     <td>
                         <img id="port" src= {dogs} class="card-img" alt="fredGlifestyle" />
