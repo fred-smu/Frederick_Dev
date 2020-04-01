@@ -13,25 +13,25 @@ function Nav() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
           <li id="NavAbout" className={
-                window.location.pathname === "/" 
+                window.location.pathname === "/React-portfolio/" 
                   ? "nav-link active"
                   : "nav-link"
               }>
-            <a className="nav-link About" href="/">About </a>
+            <a className="nav-link About" href="/React-portfolio/">About </a>
           </li>
           <li id="NavContact" className={
-                window.location.pathname === "/contact"
+                window.location.pathname === "/React-portfolio/contact"
                   ? "nav-link active"
                   : "nav-link"
               }>
-            <a className="nav-link " href="/contact">Contact <span class="sr-only">(current)</span></a>
+            <a className="nav-link " href="/React-portfolio/contact">Contact <span class="sr-only">(current)</span></a>
           </li>
           <li  id="NavPortfolio" className={
-                window.location.pathname === "/portFolio" 
+                window.location.pathname === "/React-portfolio/portFolio" 
                   ? "nav-link active"
                   : "nav-link"
               }>
-            <a className="nav-link " href="/portFolio">Portfolio <span class="sr-only">(current)</span></a>
+            <a className="nav-link " href="/React-portfolio/portFolio">Portfolio <span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
