@@ -17,6 +17,7 @@ const App = () => {
         <Nav />
         <Switch>
           <Route exact path="/" component= {DataBody} />
+          <Route exact path="/React-portfolio" component= {DataBody} />
           <Route exact path="/portFolio" component={DataPortfolio} />
           <Route exact path="/contact" component={DataContact} />
           <Route path="/" render={() => <div>404 Error Page not found</div>} />
