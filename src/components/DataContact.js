@@ -21,15 +21,3 @@ const DataContact = () => {
 };
 
 export default DataContact;
-/*****************************8
- *
- *
-
-
-
-
-        </div>
-
-
- *
- */
