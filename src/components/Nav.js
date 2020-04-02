@@ -34,7 +34,7 @@ function Nav() {
           <li  id="NavPortfolio">
           <Link to="/portFolio"
             className={
-              window.location.pathname === "/portFolio"
+              window.location.pathname === "/portFolio" || window.location.pathname === "https://fred-smu.github.io/portFolio"
                 ? "nav-link active"
                 : "nav-link"
             }>PortFolio</Link>
