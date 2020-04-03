@@ -25,7 +25,7 @@ const App = () => {
           <Route exact path="/portFolio" component={DataPortfolio} />
           {/* <Route exact path="https://fred-smu.github.io/portFolio" component={DataPortfolio} /> */}
           <Route exact path="/contact" component={DataContact} />
-          <Route path="/" render={() => <div>404 Error Page not found</div>} />
+          <Route path="/" render={() => <div>{Route.path}  404 Error Page not found</div>} />
         </Switch>
         <Footer />
       </Wrapper>
