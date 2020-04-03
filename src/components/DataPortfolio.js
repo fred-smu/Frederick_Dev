@@ -15,7 +15,7 @@ const DataPortfolio = () => {
 
         <picture className="mt-5 row justify-content-center">
             
-            <div data-aos="fade-up-right" className="col-lg-5 col-md-5 col-sm-12 mb-3">
+             <div className="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div className="col lg-12">
                     
                         <img id="port" src={APIQUIZ}  className="card-img" alt="fredGquiz" />
@@ -31,7 +31,7 @@ const DataPortfolio = () => {
             </div>
 
            
-            <div data-aos="fade-up-right" className="col-lg-5 col-md-5 col-sm-12 mb-3">
+             <div className="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div className="col lg-12">
                     {/* <td> */}
                         <img id="port" src={weatherDash} className="card-img" alt="fredGweather" />
@@ -45,7 +45,7 @@ const DataPortfolio = () => {
 
                 </div>
             </div>
-            <div data-aos="fade-up-left" className="col-lg-5 col-md-5 col-sm-12 mb-3">
+             <div className="col-lg-5 col-md-5 col-sm-12 mb-3">
 
                 <div className="col lg-12">
                     {/* <td> */}
@@ -60,7 +60,7 @@ const DataPortfolio = () => {
                 </div>
             </div>
      
-            <div data-aos="fade-up-left" className="col-lg-5 col-md-5 col-sm-12 mb-3">
+             <div className="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div className="col lg-12">
                     {/* <td> */}
                         <img id="port" src= {workday} className="card-img" alt="FredGplanner" />
@@ -74,7 +74,7 @@ const DataPortfolio = () => {
 
                 </div>
             </div>
-            <div data-aos="fade-up-right" className="col-lg-5 col-md-5 col-sm-12 mb-3">
+             <div className="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div className="col lg-12">
                     {/* <td> */}
                         <img id="port" src= {family} className="card-img" alt="fredGlifestyle" />
@@ -87,7 +87,7 @@ const DataPortfolio = () => {
 
                 </div>
             </div>
-            <div data-aos="fade-up-left" className="col-lg-5 col-md-5 col-sm-12 mb-3">
+             <div className="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div className="col lg-12">
                     {/* <td> */}
                         <img id="port" src= {dogs} className="card-img" alt="fredGlifestyle" />
