@@ -15,7 +15,8 @@ function Nav() {
           <li id="NavAbout">
             
               <Link to="/"
-              className={
+              className={                                   
+                //  https://fred-smu.github.io/
                 window.location.pathname === "/" || window.location.pathname === "https://fred-smu.github.io/React-portfolio/"
                   ? "nav-link active"
                   : "nav-link"

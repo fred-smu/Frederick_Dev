@@ -18,8 +18,9 @@ const App = () => {
 
         <Switch>
           <Route exact path="/" component= {DataBody} />
+          <Route exact path="https://fred-smu.github.io/" component= {DataBody} />
           {/* <Route exact path="/React-portfolio" component= {DataBody} /> */}
-          {/* <Route exact path="https://fred-smu.github.io/React-portfolio/" component= {DataBody} /> */}
+          <Route exact path="https://fred-smu.github.io/React-portfolio/" component= {DataBody} />
           <Route exact path="/portFolio" component={DataPortfolio} />
           {/* <Route exact path="https://fred-smu.github.io/portFolio" component={DataPortfolio} /> */}
           <Route exact path="/contact" component={DataContact} />
