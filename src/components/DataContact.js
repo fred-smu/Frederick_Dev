@@ -1,23 +1,71 @@
-import React from "react";
+import React from 'react';
+import axios from 'axios';
 import "../styles/DataContact.css";
 
-const DataContact = () => {
-  return (
-    <div className="container">
-      <h3 id="contact22">Contact</h3>
-      <form className="">
-        <div className="form-group">
-          <label id="contact22" className="label" for="email">Email</label>
-          <input type="input" className="form-control .bg-white" id="email" />
-        </div>
-        <div className="form-group">
-          <label id="contact22" className="label" for="message">Message</label>
-          <textarea rows="14" cols="10" wrap="soft" type="textarea" className="form-control .bg-white contact1" id="message" />
-        </div>
-        <button type="submit" className="btn btn-primary">Submit</button>
-      </form>
-    </div>
-  );
-};
+class DataContact extends React.Component{
+  
+  constructor(props) {
+	super(props);
+	this.state = {
+  	name: '',
+  	email: '',
+  	message: ''
+	}
+  }
 
+  handleSubmit(e){
+    e.preventDefault();
+    axios({
+      method: "POST", 
+      url:"http://localhost:3002/send", 
+      data:  this.state
+    }).then((response)=>{
+      if (response.data.status === 'success'){
+        alert("Message Sent."); 
+        this.resetForm()
+      }else if(response.data.status === 'fail'){
+        alert("Message failed to send.")
+      }
+    })
+  }
+
+  resetForm(){
+    
+     this.setState({name: ``, email: ``, message: ``})
+  }
+  
+  render() {
+    return(
+      <div className="App">
+      <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+      <div className="form-group">
+          <label id="contact33" htmlFor="name">Name</label>
+          <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+      </div>
+      <div className="form-group">
+          <label id="contact33" htmlFor="exampleInputEmail1">Email address</label>
+          <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+      </div>
+      <div className="form-group">
+          <label id="contact33" htmlFor="message">Message</label>
+          <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+      </div>
+      <button id="contact33" type="submit" className="btn btn-primary">Submit</button>
+      </form>
+      </div>
+    );
+    }
+    onNameChange(event) {
+      this.setState({name: event.target.value})
+      }
+    
+      onEmailChange(event) {
+      this.setState({email: event.target.value})
+      }
+    
+      onMessageChange(event) {
+      this.setState({message: event.target.value})
+      }
+    }
+    
 export default DataContact;

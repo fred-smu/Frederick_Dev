@@ -6,30 +6,24 @@ import DataBody      from "./components/DataBody";
 import DataPortfolio from "./components/DataPortfolio";
 import Footer        from "./components/footer";
 // import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter , Route, Switch } from 'react-router-dom'
 
 
 const App = () => {
   return (
-    
-    <Router>
+    <BrowserRouter>
       <Wrapper>
         <Nav />
-
         <Switch>
           <Route exact path="/" component= {DataBody} />
-          <Route exact path="https://fred-smu.github.io/" component= {DataBody} />
-          <Route exact path="https://fred-smu.github.io/React-portfolio/" component= {DataBody} />
-          {/* <Route exact path="/React-portfolio" component= {DataBody} /> */}
-          <Route exact path="https://fred-smu.github.io/React-portfolio/" component= {DataBody} />
-          <Route exact path="/portFolio" component={DataPortfolio} />
-          {/* <Route exact path="https://fred-smu.github.io/portFolio" component={DataPortfolio} /> */}
+          <Route exact path="/React-portfolio" component= {DataBody} />
           <Route exact path="/contact" component={DataContact} />
+          <Route exact path="/portFolio" component={DataPortfolio} />
           <Route path="/" render={() => <div>{Route.path}  404 Error Page not found</div>} />
         </Switch>
         <Footer />
       </Wrapper>
-    </Router>
+    </BrowserRouter>
     
 
   );

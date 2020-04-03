@@ -8,7 +8,7 @@ const DataBody = () => {
     <div className="container">
       <div className="row">        <div className="col">
           <div id ="card" className="card .bg-transparent" >
-            <a>
+            <a >
             <img id="me" src= {ME}  className="card-img-top" alt="my_photo" />
             </a>
             <div className="card-body .bg-transparent">
