@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Frederick_Dev/static/css/main.44956dc4.chunk.css",
-    "main.js": "/Frederick_Dev/static/js/main.1c4d0cda.chunk.js",
-    "main.js.map": "/Frederick_Dev/static/js/main.1c4d0cda.chunk.js.map",
-    "runtime-main.js": "/Frederick_Dev/static/js/runtime-main.45e4d0f6.js",
-    "runtime-main.js.map": "/Frederick_Dev/static/js/runtime-main.45e4d0f6.js.map",
-    "static/js/2.0d9c4736.chunk.js": "/Frederick_Dev/static/js/2.0d9c4736.chunk.js",
-    "static/js/2.0d9c4736.chunk.js.map": "/Frederick_Dev/static/js/2.0d9c4736.chunk.js.map",
-    "index.html": "/Frederick_Dev/index.html",
-    "precache-manifest.344bb346d40706d9dd854abb01689c2b.js": "/Frederick_Dev/precache-manifest.344bb346d40706d9dd854abb01689c2b.js",
-    "service-worker.js": "/Frederick_Dev/service-worker.js",
-    "static/css/main.44956dc4.chunk.css.map": "/Frederick_Dev/static/css/main.44956dc4.chunk.css.map",
-    "static/js/2.0d9c4736.chunk.js.LICENSE.txt": "/Frederick_Dev/static/js/2.0d9c4736.chunk.js.LICENSE.txt",
-    "static/media/APIQUIZ.png": "/Frederick_Dev/static/media/APIQUIZ.19a9dee3.png",
-    "static/media/bonnie & misty.png.jpg": "/Frederick_Dev/static/media/bonnie & misty.png.133f4deb.jpg",
-    "static/media/family.png": "/Frederick_Dev/static/media/family.c383b584.png",
-    "static/media/DataPortfolio.css": "/Frederick_Dev/static/media/resback.df830afb.png",
-    "static/media/tempEngine.png": "/Frederick_Dev/static/media/tempEngine.85e78c7d.png",
-    "static/media/tranback.png": "/Frederick_Dev/static/media/tranback.cd849962.png",
-    "static/media/weatherDash.png": "/Frederick_Dev/static/media/weatherDash.6f5b63c9.png",
-    "static/media/workday.png": "/Frederick_Dev/static/media/workday.17250412.png"
+    "main.css": "/React-portfolio/static/css/main.933fbc28.chunk.css",
+    "main.js": "/React-portfolio/static/js/main.2734d755.chunk.js",
+    "main.js.map": "/React-portfolio/static/js/main.2734d755.chunk.js.map",
+    "runtime-main.js": "/React-portfolio/static/js/runtime-main.89c3e0fb.js",
+    "runtime-main.js.map": "/React-portfolio/static/js/runtime-main.89c3e0fb.js.map",
+    "static/js/2.0d9c4736.chunk.js": "/React-portfolio/static/js/2.0d9c4736.chunk.js",
+    "static/js/2.0d9c4736.chunk.js.map": "/React-portfolio/static/js/2.0d9c4736.chunk.js.map",
+    "index.html": "/React-portfolio/index.html",
+    "precache-manifest.609c725d902e99335494f96f21825fc3.js": "/React-portfolio/precache-manifest.609c725d902e99335494f96f21825fc3.js",
+    "service-worker.js": "/React-portfolio/service-worker.js",
+    "static/css/main.933fbc28.chunk.css.map": "/React-portfolio/static/css/main.933fbc28.chunk.css.map",
+    "static/js/2.0d9c4736.chunk.js.LICENSE.txt": "/React-portfolio/static/js/2.0d9c4736.chunk.js.LICENSE.txt",
+    "static/media/APIQUIZ.png": "/React-portfolio/static/media/APIQUIZ.19a9dee3.png",
+    "static/media/bonnie & misty.png.jpg": "/React-portfolio/static/media/bonnie & misty.png.133f4deb.jpg",
+    "static/media/family.png": "/React-portfolio/static/media/family.c383b584.png",
+    "static/media/DataPortfolio.css": "/React-portfolio/static/media/resback.df830afb.png",
+    "static/media/tempEngine.png": "/React-portfolio/static/media/tempEngine.85e78c7d.png",
+    "static/media/tranback.png": "/React-portfolio/static/media/tranback.cd849962.png",
+    "static/media/weatherDash.png": "/React-portfolio/static/media/weatherDash.6f5b63c9.png",
+    "static/media/workday.png": "/React-portfolio/static/media/workday.17250412.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.45e4d0f6.js",
+    "static/js/runtime-main.89c3e0fb.js",
     "static/js/2.0d9c4736.chunk.js",
-    "static/css/main.44956dc4.chunk.css",
-    "static/js/main.1c4d0cda.chunk.js"
+    "static/css/main.933fbc28.chunk.css",
+    "static/js/main.2734d755.chunk.js"
   ]
 }
