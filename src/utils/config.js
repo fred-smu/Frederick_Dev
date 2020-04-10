@@ -1,6 +1,6 @@
 module.exports = {
     USER: 'workathome3@myself.com', 
-    PASS: 'Rc135328@'
+    PASS: process.env.PASS
 }
 
 var express = require('express');

@@ -18,9 +18,9 @@ function Nav() {
             
               <Link to="/React-portfolio"
               className={                                   
-                window.location.pathname === "/contact" || window.location.pathname === "http://localhost:3000/portFolio"
-                  ? "nav-link"
-                  : "nav-link active"
+                window.location.pathname === "/" || window.location.pathname === "http://localhost:3000/React-portfolio"
+                  ? "nav-link active"
+                  : "nav-link"
               }>About</Link>
 
           </li>
@@ -28,15 +28,15 @@ function Nav() {
            
             <Link to="/contact"
             className={
-              window.location.pathname === "/contact"
-                ? "nav-link active"
-                : "nav-link"
+              window.location.pathname === "/contact" || window.location.pathname === "http://localhost:3000/contact"
+              ? "nav-link active"
+              : "nav-link"
             }>Contact</Link>
           </li>
           <li  id="NavPortfolio">
            <Link to="/portFolio"
             className={
-              window.location.pathname === "http://localhost:3000/portFolio" 
+              window.location.pathname === "/portFolio" || window.location.pathname === "http://localhost:3000/portFolio" 
                 ? "nav-link active"
                 : "nav-link"
             }> PortFolio </Link>
