@@ -2,8 +2,8 @@ This project was to update my 1st weeks portfolio to a react based system.
 update and make user friendly app, to highlight my work done in the bootcamp.
 it has 3 sections the
 First section is a About giving some detail and background on me.
-second section is a e-mail to make contact with me
-third section is a host portfolio highlighting my work
+Second section is a e-mail to make contact with me
+Third section is a host portfolio highlighting my work
 
 
 
