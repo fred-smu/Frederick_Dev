@@ -6,7 +6,7 @@ it has 3 sections the
 First section is a About giving some detail and background on me.
 Second section is a e-mail to make contact with me
 Third section is a host portfolio highlighting my work.
-
+.
 
 ## Available Scripts
 
