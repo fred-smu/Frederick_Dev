@@ -24,7 +24,7 @@ function Nav() {
               }>About</Link>
 
           </li>
-          <li id="NavContact" >
+          {/* <li id="NavContact" >
            
             <Link to="/contact"
             className={
@@ -32,7 +32,7 @@ function Nav() {
               ? "nav-link active"
               : "nav-link"
             }>Contact</Link>
-          </li>
+          </li> */}
           <li  id="NavPortfolio">
            <Link to="/portFolio"
             className={
