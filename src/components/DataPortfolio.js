@@ -125,7 +125,7 @@ const DataPortfolio = () => {
              <div className="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div className="col lg-12">
                     {/* <td> */}
-                        <img id="port" src= {workday} className="card-img" alt="FredGplanner" height="375px"/>
+                        <img id="port" src= {workday} className="card-img" alt="FredGplanner" />
                     {/* </td> */}
                     <div className="card-img-overlay">
                         <div className="h-100 mt-5">
