@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b16369dd316a0e936705ba82a39e8c6c",
+    "revision": "8aa90eca504dd21b5de57da95273e37a",
     "url": "/React-portfolio/index.html"
   },
   {
-    "revision": "de7d596f2afb2c4948fc",
-    "url": "/React-portfolio/static/css/main.933fbc28.chunk.css"
+    "revision": "f3f9665a73c0bce5cc46",
+    "url": "/React-portfolio/static/css/main.f71dff56.chunk.css"
   },
   {
-    "revision": "7f80f6a3ea1e5f94224c",
-    "url": "/React-portfolio/static/js/2.0d9c4736.chunk.js"
+    "revision": "e182967830a3e8c7e16d",
+    "url": "/React-portfolio/static/js/2.172517c2.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/React-portfolio/static/js/2.0d9c4736.chunk.js.LICENSE.txt"
+    "url": "/React-portfolio/static/js/2.172517c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "de7d596f2afb2c4948fc",
-    "url": "/React-portfolio/static/js/main.2734d755.chunk.js"
+    "revision": "f3f9665a73c0bce5cc46",
+    "url": "/React-portfolio/static/js/main.14a17c8d.chunk.js"
   },
   {
     "revision": "99724ca45101c11f89bc",
@@ -28,12 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-portfolio/static/media/APIQUIZ.19a9dee3.png"
   },
   {
-    "revision": "133f4deb3cf8dea8971e5783ad84a5e6",
-    "url": "/React-portfolio/static/media/bonnie & misty.png.133f4deb.jpg"
+    "revision": "c9752d2855ed6fe77e9303f4640a3c2b",
+    "url": "/React-portfolio/static/media/budgetTracker.c9752d28.png"
   },
   {
-    "revision": "c383b5847ac1e81aa0837c0d39af29d8",
-    "url": "/React-portfolio/static/media/family.c383b584.png"
+    "revision": "6eaa44fdcd43a91d603485130f969bca",
+    "url": "/React-portfolio/static/media/burger.6eaa44fd.png"
+  },
+  {
+    "revision": "d0a82d297d94e03261bb9400ee3ab5d3",
+    "url": "/React-portfolio/static/media/login.d0a82d29.png"
+  },
+  {
+    "revision": "94097866e3c844c9206f6a6416138e8d",
+    "url": "/React-portfolio/static/media/project1.94097866.png"
   },
   {
     "revision": "df830afb6c3f331c8f9ef01ed4b6b957",
