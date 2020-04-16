@@ -1,7 +1,6 @@
 import React from "react";
-// import DataPortfolio from "./DataPortfolio";
 import { Link } from "react-router-dom";
-// import "../styles/Nav.css";
+
 
 function Nav() {
   
