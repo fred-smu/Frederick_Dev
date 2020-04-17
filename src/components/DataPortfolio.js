@@ -22,9 +22,9 @@ const DataPortfolio = () => {
                     <div className="card-img-overlay">
                         <div className="h-100 mt-5">
                              <a href="https://github.com/fred-smu/burger" 
-                            className="btn btn-lg btn-block text-dark"> GitHub Link: Burger</a>
+                            className="btn btn-lg btn-block bg-warning text-dark"> GitHub Link: Burger</a>
                             <a href="https://gentle-peak-62776.herokuapp.com/" 
-                            className="btn btn-lg btn-block text-dark"> Deployed Link: Burger</a>
+                            className="btn btn-lg btn-block bg-warning text-dark"> Deployed Link: Burger</a>
                         </div>
                     </div>
 
@@ -39,9 +39,9 @@ const DataPortfolio = () => {
                         <div className="h-100 mt-5">
                         
                             <a href="https://github.com/fred-smu/TP-Express" 
-                            className="btn btn-lg btn-block text-dark"> GitHub Link: TP Express</a>
+                            className="btn btn-lg btn-block bg-warning text-dark"> GitHub Link: TP Express</a>
                             <a href="https://arcane-chamber-47434.herokuapp.com/" 
-                            className="btn btn-lg btn-block text-dark"> Deployed Link: TP Express</a>
+                            className="btn btn-lg btn-block bg-warning text-dark"> Deployed Link: TP Express</a>
                         </div>
                     </div>
 
@@ -55,9 +55,9 @@ const DataPortfolio = () => {
                     <div className="card-img-overlay">
                         <div className="h-100 mt-5">
                             <a href="https://github.com/fred-smu/project1.1" 
-                            className="btn btn-lg btn-block text-dark">GitHub Link: Project1.1</a>
+                            className="btn btn-lg btn-block bg-warning text-dark">GitHub Link: Project1.1</a>
                             {/* <a href="https://lit-escarpment-52457.herokuapp.com/" 
-                            className="btn btn-lg btn-block text-dark">Deployed Link: Project1.1</a> */}
+                            className="btn btn-lg btn-block bg-warning text-dark">Deployed Link: Project1.1</a> */}
                         </div>
                     </div>
 
@@ -69,9 +69,9 @@ const DataPortfolio = () => {
                     <div className="card-img-overlay">
                         <div className="h-100 mt-5">
                             <a href="https://github.com/fred-smu/Budget-Trackers" 
-                            className="btn btn-lg btn-block text-dark">GitHub Link: Budget Tracker</a>
+                            className="btn btn-lg btn-block bg-warning text-dark">GitHub Link: Budget Tracker</a>
                             <a href="https://lit-escarpment-52457.herokuapp.com/" 
-                            className="btn btn-lg btn-block text-dark">Deployed Link: Budget Tracker</a>
+                            className="btn btn-lg btn-block bg-warning text-dark">Deployed Link: Budget Tracker</a>
                         </div>
                     </div>
 
@@ -85,7 +85,7 @@ const DataPortfolio = () => {
                     <div className="card-img-overlay">
                         <div className=" mt-5">
                             <a href="https://github.com/fred-smu/APICodeQuiz/" 
-                            className="btn btn-lg btn-block text-dark">GitHub Link:Quiz Game</a>
+                            className="btn btn-lg btn-block bg-warning text-dark">GitHub Link:Quiz Game</a>
                         </div>
                     </div>
 
@@ -101,7 +101,7 @@ const DataPortfolio = () => {
                     <div className="card-img-overlay">
                         <div className="h-100 mt-5">
                             <a href="https://github.com/fred-smu/weatherDash/"
-                                className="btn text-dark btn-lg btn-block">GitHub Link:Weather App</a>
+                                className="btn text-dark btn-lg btn-block bg-warning text-dark">GitHub Link:Weather App</a>
                         </div>
                     </div>
 
@@ -116,7 +116,7 @@ const DataPortfolio = () => {
                     <div className="card-img-overlay">
                         <div className="h-100 mt-5">
                             <a href="https://github.com/fred-smu/Template-Engine---Employee-Summary"
-                                className="btn  btn-lg btn-block text-light">GitHub Link:Template-Engine---Employee-Summary</a>
+                                className="btn  btn-lg btn-block bg-warning text-dark">GitHub Link:Template-Engine---Employee-Summary</a>
                         </div>
                     </div>
                 </div>
@@ -125,12 +125,12 @@ const DataPortfolio = () => {
              <div className="col-lg-5 col-md-5 col-sm-12 mb-3">
                 <div className="col lg-12">
                     {/* <td> */}
-                        <img id="port" src= {workday} className="card-img" alt="FredGplanner" height="375px"/>
+                        <img id="port" src= {workday} className="card-img" alt="FredGplanner" />
                     {/* </td> */}
                     <div className="card-img-overlay">
                         <div className="h-100 mt-5">
                             <a href="https://github.com/fred-smu/WorkDayScheduler/"
-                                className="btn btn-lg btn-block text-dark">GitHub Link:Day Planner</a>
+                                className="btn btn-lg btn-block bg-warning text-dark">GitHub Link:Day Planner</a>
                         </div>
                     </div>
 
@@ -144,7 +144,7 @@ const DataPortfolio = () => {
                     
                     <div className="card-img-overlay">
                         <div className="h-100 mt-5">
-                            <a href={family} className="btn btn-lg btn-block text-light"> My Family</a>
+                            <a href={family} className="btn btn-lg btn-block bg-warning text-dark"> My Family</a>
                         </div>
                     </div>
 
@@ -157,7 +157,7 @@ const DataPortfolio = () => {
                     
                     <div className="card-img-overlay">
                         <div className="h-100 mt-5">
-                            <a href={dogs} className="btn btn-lg btn-block text-light"> Bonnie and Misty</a>
+                            <a href={dogs} className="btn btn-lg btn-block bg-warning text-dark"> Bonnie and Misty</a>
                         </div>
                     </div>
 
