@@ -36,6 +36,7 @@ const DataBody = () => {
                  <p className="card-text4 mb-3">
                  My brand is “When you need the one person to pull everything together, 
                           I’m your man”.</p>
+                          <p className="card-text5 mb-3">E-Mail : FRED3@MYSELF.COM </p>
             </div>
           </div>
         </div>
